@@ -1,18 +1,11 @@
 import java.util.*;
-public class JPA03 {
-    static Scanner input = new Scanner(System.in);
-    public static void main(String[] args) {
-        test();
-        test();
-    }
-    
-    static void test() {
-        System.out.println("Input an integer:");
-        int n = input.nextInt();
-        
-        if(n % 2 == 0)
-        	System.out.println("The number is even.");
-        else
-        	System.out.println("The number is odd.");
-    }
+public class JPA01{
+ public static void main(String argv[]) {
+  System.out.println("Input:");
+  int m=0,n = new Scanner(System.in).nextInt();
+  for (int i=1; i<=n ; i++) {
+   m = m + i;                      
+  }
+  System.out.println("1 + ... + " + n + " = " + m);
+ }
 }
